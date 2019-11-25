@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none;
+}
+.listelem {
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    background-color: #0069d9;
+}
+
+li {
+    color: white;
+}
+
+.listelem:hover {
+    background-color: red;
+}
